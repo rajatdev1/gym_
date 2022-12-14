@@ -1,0 +1,118 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.back{
+    background-image: url(./../image2/background.jpeg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    z-index: -1;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   width: 100%;
+   padding: 2rem 0 ;
+   background: rgb(50, 49, 49);
+   z-index: 100000;
+   position: fixed;
+}
+.nav h2{
+    color: antiquewhite;
+    font-size: 2rem;
+}
+
+#item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+#item li{
+    list-style: none;
+    padding-right: 50px;
+}
+#item li a{
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#item li a:hover{
+    color: #ff5733;
+    cursor: pointer;
+}
+
+#item .icon i:hover{
+    color: #ff5733;
+    cursor: pointer; 
+}
+
+.icon i{
+    color: #fff;
+    padding: 0 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.back .overlay{
+    background: #171819;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+
+.mid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    text-align: center;
+}
+
+
+.mid p{
+    color: #7f8c8d;
+    font-size: 1.3rem;
+    margin-bottom: 1.4rem;
+}
+
+.mid h2{
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.mid .btn a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.mid .btn a.simple{
+    color: #fff;
+   padding: 0.9rem 1.6rem;
+ 
+}
+
+.mid .btn a.simple:hover{
+color: #ff5733;
+}
+
+.mid .btn a.border{
+    color: #ff5733;
+    padding: 0.9rem 1.6rem;
+    border: 1px solid #ff5733;
+}
+
+.mid .btn a.border:hover{
+    color: #ff5733;
+    background-color: #fff;
+}
